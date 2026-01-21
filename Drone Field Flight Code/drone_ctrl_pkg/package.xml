@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>drone_ctrl_pkg</name>
+  <version>0.0.1</version>
+  <description>Package for controlling drone movement</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+   <build_depend>rospy</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>mavros</build_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>mavros</exec_depend>
+</package>
